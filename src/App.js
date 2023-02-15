@@ -255,7 +255,7 @@ function App() {
 				{/* <form action="{{ url_for('predict')}}" method="post"> */}
 			</div>
 			<div>
-				<div className="inline">person_age:</div>
+				<div className="inline">Age:</div>
 				<input
 					type="number"
 					id="age"
@@ -275,7 +275,7 @@ function App() {
 				)}
 			</div>
 			<div>
-				<div className="inline">person_income:</div>
+				<div className="inline">Annual Income:</div>
 				<input
 					type="number"
 					id="person_income"
@@ -295,7 +295,7 @@ function App() {
 				)}
 			</div>
 			<div className="object">
-				<div className="inline">person_home_ownership: </div>
+				<div className="inline">Home ownership: </div>
 				<select
 					id="person_home_ownership"
 					name="person_home_ownership"
@@ -313,7 +313,7 @@ function App() {
 				</select>
 			</div>
 			<div>
-				<div className="inline">person_emp_length:</div>
+				<div className="inline">Employment length (in years):</div>
 				<input
 					type="number"
 					id="person_emp_length"
@@ -333,7 +333,7 @@ function App() {
 				)}
 			</div>
 			<div className="object">
-				<div className="inline">loan_intent: </div>
+				<div className="inline">Loan intent: </div>
 				<select
 					id="loan_intent"
 					name="loan_intent"
@@ -353,7 +353,7 @@ function App() {
 				</select>
 			</div>
 			<div className="object">
-				<div className="inline">loan_grade: </div>
+				<div className="inline">Loan grade: </div>
 				<select
 					id="loan_grade"
 					name="loan_grade"
@@ -374,7 +374,7 @@ function App() {
 				</select>
 			</div>
 			<div>
-				<div className="inline">loan_amnt:</div>
+				<div className="inline">Loan amount:</div>
 				<input
 					type="number"
 					id="loan_amnt"
@@ -394,7 +394,7 @@ function App() {
 				)}
 			</div>
 			<div>
-				<div className="inline">loan_int_rate:</div>
+				<div className="inline">Interest rate:</div>
 				<input
 					type="number"
 					id="loan_int_rate"
@@ -414,7 +414,7 @@ function App() {
 				)}
 			</div>
 			<div>
-				<div className="inline">loan_percent_income:</div>
+				<div className="inline">Percent income:</div>
 				<input
 					type="number"
 					id="loan_percent_income"
@@ -434,7 +434,7 @@ function App() {
 				)}
 			</div>
 			<div className="object">
-				<div className="inline">cb_person_default_on_file: </div>
+				<div className="inline">Historical default: </div>
 				<select
 					id="cb_person_default_on_file"
 					name="cb_person_default_on_file"
@@ -450,7 +450,7 @@ function App() {
 				</select>
 			</div>
 			<div>
-				<div className="inline">cb_person_cred_hist_length:</div>
+				<div className="inline">Credit history length:</div>
 				<input
 					type="number"
 					id="cb_person_cred_hist_length"
